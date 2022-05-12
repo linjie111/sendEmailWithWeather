@@ -6,11 +6,11 @@ from email.header import Header
 def send(text):
     # 这里使用的是163.com
     mail_host = "smtp.163.com"  # 设置服务器
-    mail_user = "15243666065@163.com"  # 用户名
-    mail_pass = "2997854889"  # 口令 邮箱密码
+    mail_user = "*******@163.com"  # 用户名
+    mail_pass = "******"  # 口令 邮箱密码
 
-    sender = '15243666065@163.com'
-    receivers = ['15243666065@163.com']  # 接收者的邮箱
+    sender = '*****@163.com'  #发送邮箱  和上方用户名一致
+    receivers = ['***@163.com']  # 接收者的邮箱
     message = MIMEText(text, 'plain', 'utf-8')
     message['From'] = Header('wanglin')
     message['To'] = Header("toyou")
